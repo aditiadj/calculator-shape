@@ -1,0 +1,16 @@
+.input-margin {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+#squareArea, #squarePerimeter, #circleArea, #circleCircum, #cubeArea, #cubeVolum, .operator {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+#result, .p, h1 {
+  display: flex;
+  justify-content: center;
+}
