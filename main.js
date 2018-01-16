@@ -22,7 +22,7 @@ kelilingPersegi.addEventListener('click', squarePerimeter)
 
 
 function circleArea(radius) {
-  r = Number(document.getElementById(`input-one`).value)
+  radius = Number(document.getElementById(`input-one`).value)
   result = Math.PI * Math.pow(r, 2)
   document.getElementById(`result`).innerHTML = result
 }
@@ -30,9 +30,9 @@ luasLingkaran.addEventListener('click', circleArea)
 
 
 function circleCircum(radius) {
-  r = Number(document.getElementById(`input-one`).value)
-  radius = 2 * Math.PI * r
-  document.getElementById(`result`).innerHTML = radius
+  radius = Number(document.getElementById(`input-one`).value)
+  result = 2 * Math.PI * r
+  document.getElementById(`result`).innerHTML = result
 }
 kelilingLingkaran.addEventListener('click', circleCircum)
 
