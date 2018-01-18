@@ -15,23 +15,23 @@ luasPersegi.addEventListener('click', squareArea)
 
 function squarePerimeter(length) {
   length = Number(document.getElementById(`input-one`).value)
-  result = 4 * length
+  result = 4 * length;
   document.getElementById(`result`).innerHTML = result
 }
 kelilingPersegi.addEventListener('click', squarePerimeter)
 
 
-function circleArea(radius) {
-  radius = Number(document.getElementById(`input-one`).value)
-  result = Math.PI * Math.pow(r, 2)
+function circleArea(length) {
+  length = Number(document.getElementById(`input-one`).value)
+  result = Math.PI * Math.pow(length, 2);
   document.getElementById(`result`).innerHTML = result
 }
 luasLingkaran.addEventListener('click', circleArea)
 
 
-function circleCircum(radius) {
-  radius = Number(document.getElementById(`input-one`).value)
-  result = 2 * Math.PI * r
+function circleCircum(length) {
+  length = Number(document.getElementById(`input-one`).value)
+  result = 2 * Math.PI * length;
   document.getElementById(`result`).innerHTML = result
 }
 kelilingLingkaran.addEventListener('click', circleCircum)
